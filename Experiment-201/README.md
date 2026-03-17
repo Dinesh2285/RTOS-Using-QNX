@@ -126,7 +126,18 @@ Child 3 running after parent exit. My PID = 1203, New Parent PID = 1
 
 # Ouput
 
----
+```
+Parent started. PID = 663554
+Child 1 started. PID = 663573, Parent PID = 663554
+Child 2 started. PID = 663575, Parent PID = 663554
+Parent sleeping for 5 seconds...
+Child 3 started. PID = 663576, Parent PID = 663554
+Parent exiting now. PID = 663554
+Child 1 running after parent exit. My PID = 663573, New Parent PID = 663554
+Child 2 running after parent exit. My PID = 663575, New Parent PID = 663554
+Child 3 running after parent exit. My PID = 663576, New Parent PID = 663554
+```
+
 
 # Result
 
